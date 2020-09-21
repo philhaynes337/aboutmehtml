@@ -1,0 +1,51 @@
+body {
+	background-color: #373F51;
+	margin: auto;
+
+}
+a {
+	font-family: "Courier New", Courier, monospace;
+
+}
+a:link 	{ color: red; }
+a:visited 	{ color: red; }
+a:hover 	{ color: blue; }
+a:active 	{ color: pink; }
+
+
+
+
+header {
+	background-color: #58A4B0;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	text-align: center;
+	margin: 25px 50px 75px 100px;
+	padding: 0px;
+}
+main {
+	text-align: center;
+	background: #A9BCD0;
+	font-family: Arial;
+	text-align: center;
+	margin: 25px 50px 75px 100px;
+
+}
+footer {
+	text-align: center;
+	background: #58A4B0;
+	font-family: Arial;
+	color: white;
+	margin: 25px 50px 75px 100px;
+}
+.circle {
+	border-radius: 50%;
+
+}
+article {
+	margin: 25px 50px 75px 100px;
+}
+p
+{
+	text-align: center;
+}
