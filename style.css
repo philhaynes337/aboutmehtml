@@ -1,51 +1,70 @@
 body {
 	background-color: #373F51;
 	margin: auto;
+	
 
 }
+
 a {
 	font-family: "Courier New", Courier, monospace;
 
 }
-a:link 	{ color: red; }
-a:visited 	{ color: red; }
-a:hover 	{ color: blue; }
-a:active 	{ color: pink; }
+
+a:link 	{ color: blue; }
+a:visited 	{ color: blue; }
+a:hover 	{ color: white; }
+a:active 	{ color: red; }
 
 
+header, main, footer{
+	text-align: center;
+	margin: auto;
+	padding: 0px;
+	width: 700px;
 
+}
 
 header {
 	background-color: #58A4B0;
 	color: white;
 	font-family: "Courier New", Courier, monospace;
-	text-align: center;
-	margin: 25px 50px 75px 100px;
-	padding: 0px;
 }
-main {
-	text-align: center;
-	background: #A9BCD0;
-	font-family: Arial;
-	text-align: center;
-	margin: 25px 50px 75px 100px;
 
-}
-footer {
+main {
+	background: #A9BCD0;
+	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	background: #58A4B0;
-	font-family: Arial;
-	color: white;
-	margin: 25px 50px 75px 100px;
 }
+
+footer {
+
+	background: #58A4B0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
 .circle {
 	border-radius: 50%;
 
 }
-article {
-	margin: 25px 50px 75px 100px;
-}
+
 p
 {
-	text-align: center;
+	text-align: left;
+	width: 600px;
+	margin: auto;
+}
+
+li {
+	list-style-position: inside;
+	width: 300px;
+	margin: auto;
+	text-align: left;
+
+}
+
+
+
+.edge {
+	border-radius: 10px;
 }
