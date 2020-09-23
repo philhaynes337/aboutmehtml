@@ -1,10 +1,12 @@
+
+/*body information */
 body {
 	background-color: #373F51;
 	margin: auto;
 	
 
 }
-
+/* link information */
 a {
 	font-family: "Courier New", Courier, monospace;
 
@@ -14,8 +16,10 @@ a:link 	{ color: blue; }
 a:visited 	{ color: blue; }
 a:hover 	{ color: white; }
 a:active 	{ color: red; }
+/* end link information */
 
 
+/* combined header main and footer */
 header, main, footer{
 	text-align: center;
 	margin: auto;
@@ -23,6 +27,8 @@ header, main, footer{
 	width: 700px;
 
 }
+
+/* individual header / main / footer */
 
 header {
 	background-color: #58A4B0;
@@ -43,11 +49,14 @@ footer {
 	color: white;
 }
 
+/* circle for my image */
+
 .circle {
 	border-radius: 50%;
 
 }
 
+/* paragraph */
 p
 {
 	text-align: left;
@@ -55,6 +64,7 @@ p
 	margin: auto;
 }
 
+/* list */
 li {
 	list-style-position: inside;
 	width: 300px;
@@ -64,7 +74,26 @@ li {
 }
 
 
-
+/* This rounds the edges of the header / main / footer */
 .edge {
 	border-radius: 10px;
+}
+/* h1-3 code here */
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+/* used to align a div with the list */
+.alignwp {
+	text-align: left;
+	margin: auto;
+	width: 300px;
 }
