@@ -4,6 +4,7 @@ body {
 	background-color: #373F51;
 	margin: auto;
 	
+	
 
 }
 /* link information */
@@ -25,6 +26,8 @@ header, main, footer{
 	margin: auto;
 	padding: 0px;
 	width: 700px;
+	height: auto;
+
 
 }
 
@@ -34,6 +37,7 @@ header {
 	background-color: #58A4B0;
 	color: white;
 	font-family: "Courier New", Courier, monospace;
+
 }
 
 main {
